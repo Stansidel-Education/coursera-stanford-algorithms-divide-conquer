@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Array&lt;A where ...&gt;.quickSort(usingPivotPickFunciton : PivotPickFunction, from : Int, to : Int) -&gt; Int:main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;from: \(i), to: \(to) : \(to - i)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "&quot;from: \(from), to: \(i - 2) : \(i - 2 - from)&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

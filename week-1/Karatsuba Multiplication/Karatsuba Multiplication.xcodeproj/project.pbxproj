@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1FF0C41DFC3C9D0012A78C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FF0C31DFC3C9D0012A78C /* main.swift */; };
+		2C1FF0CB1DFC3CE90012A78C /* InfiniteInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FF0CA1DFC3CE90012A78C /* InfiniteInt.swift */; };
+		2C8783471DFC53D300FF2FE7 /* InfiniteIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8783461DFC53D300FF2FE7 /* InfiniteIntTests.swift */; };
+		2C8783481DFC55C600FF2FE7 /* InfiniteInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FF0CA1DFC3CE90012A78C /* InfiniteInt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C1FF0BE1DFC3C9D0012A78C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C1FF0C01DFC3C9D0012A78C /* Karatsuba Multiplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Karatsuba Multiplication"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1FF0C31DFC3C9D0012A78C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2C1FF0CA1DFC3CE90012A78C /* InfiniteInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteInt.swift; sourceTree = "<group>"; };
+		2C87833E1DFC539000FF2FE7 /* Karatsuba Multiplication Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karatsuba Multiplication Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8783421DFC539000FF2FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8783461DFC53D300FF2FE7 /* InfiniteIntTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteIntTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1FF0BD1DFC3C9D0012A78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C87833B1DFC539000FF2FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1FF0B71DFC3C9D0012A78C = {
+			isa = PBXGroup;
+			children = (
+				2C1FF0C21DFC3C9D0012A78C /* Karatsuba Multiplication */,
+				2C87833F1DFC539000FF2FE7 /* Karatsuba Multiplication Tests */,
+				2C1FF0C11DFC3C9D0012A78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1FF0C11DFC3C9D0012A78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1FF0C01DFC3C9D0012A78C /* Karatsuba Multiplication */,
+				2C87833E1DFC539000FF2FE7 /* Karatsuba Multiplication Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1FF0C21DFC3C9D0012A78C /* Karatsuba Multiplication */ = {
+			isa = PBXGroup;
+			children = (
+				2C1FF0C31DFC3C9D0012A78C /* main.swift */,
+				2C1FF0CA1DFC3CE90012A78C /* InfiniteInt.swift */,
+			);
+			path = "Karatsuba Multiplication";
+			sourceTree = "<group>";
+		};
+		2C87833F1DFC539000FF2FE7 /* Karatsuba Multiplication Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8783461DFC53D300FF2FE7 /* InfiniteIntTests.swift */,
+				2C8783421DFC539000FF2FE7 /* Info.plist */,
+			);
+			path = "Karatsuba Multiplication Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1FF0BF1DFC3C9D0012A78C /* Karatsuba Multiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1FF0C71DFC3C9D0012A78C /* Build configuration list for PBXNativeTarget "Karatsuba Multiplication" */;
+			buildPhases = (
+				2C1FF0BC1DFC3C9D0012A78C /* Sources */,
+				2C1FF0BD1DFC3C9D0012A78C /* Frameworks */,
+				2C1FF0BE1DFC3C9D0012A78C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karatsuba Multiplication";
+			productName = "Karatsuba Multiplication";
+			productReference = 2C1FF0C01DFC3C9D0012A78C /* Karatsuba Multiplication */;
+			productType = "com.apple.product-type.tool";
+		};
+		2C87833D1DFC539000FF2FE7 /* Karatsuba Multiplication Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8783431DFC539000FF2FE7 /* Build configuration list for PBXNativeTarget "Karatsuba Multiplication Tests" */;
+			buildPhases = (
+				2C87833A1DFC539000FF2FE7 /* Sources */,
+				2C87833B1DFC539000FF2FE7 /* Frameworks */,
+				2C87833C1DFC539000FF2FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karatsuba Multiplication Tests";
+			productName = "Karatsuba Multiplication Tests";
+			productReference = 2C87833E1DFC539000FF2FE7 /* Karatsuba Multiplication Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1FF0B81DFC3C9D0012A78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = StanSidel;
+				TargetAttributes = {
+					2C1FF0BF1DFC3C9D0012A78C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+					};
+					2C87833D1DFC539000FF2FE7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C1FF0BB1DFC3C9D0012A78C /* Build configuration list for PBXProject "Karatsuba Multiplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C1FF0B71DFC3C9D0012A78C;
+			productRefGroup = 2C1FF0C11DFC3C9D0012A78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1FF0BF1DFC3C9D0012A78C /* Karatsuba Multiplication */,
+				2C87833D1DFC539000FF2FE7 /* Karatsuba Multiplication Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C87833C1DFC539000FF2FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1FF0BC1DFC3C9D0012A78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1FF0C41DFC3C9D0012A78C /* main.swift in Sources */,
+				2C1FF0CB1DFC3CE90012A78C /* InfiniteInt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C87833A1DFC539000FF2FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8783471DFC53D300FF2FE7 /* InfiniteIntTests.swift in Sources */,
+				2C8783481DFC55C600FF2FE7 /* InfiniteInt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C1FF0C51DFC3C9D0012A78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C1FF0C61DFC3C9D0012A78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C1FF0C81DFC3C9D0012A78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C1FF0C91DFC3C9D0012A78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C8783441DFC539000FF2FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Karatsuba Multiplication Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Karatsuba-Multiplication-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C8783451DFC539000FF2FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Karatsuba Multiplication Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Karatsuba-Multiplication-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1FF0BB1DFC3C9D0012A78C /* Build configuration list for PBXProject "Karatsuba Multiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1FF0C51DFC3C9D0012A78C /* Debug */,
+				2C1FF0C61DFC3C9D0012A78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1FF0C71DFC3C9D0012A78C /* Build configuration list for PBXNativeTarget "Karatsuba Multiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1FF0C81DFC3C9D0012A78C /* Debug */,
+				2C1FF0C91DFC3C9D0012A78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8783431DFC539000FF2FE7 /* Build configuration list for PBXNativeTarget "Karatsuba Multiplication Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8783441DFC539000FF2FE7 /* Debug */,
+				2C8783451DFC539000FF2FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C1FF0B81DFC3C9D0012A78C /* Project object */;
+}
