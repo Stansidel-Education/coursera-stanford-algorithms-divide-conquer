@@ -48,7 +48,7 @@ extension InfiniteInt: Number {
     static func *(left: InfiniteInt, right: InfiniteInt) -> InfiniteInt {
         let lcount = left.value.characters.count
         let rcount = right.value.characters.count
-        if lcount == rcount && log2(Double(lcount)).remainder(dividingBy: 1) == 0 {
+        if lcount == rcount {
             print("Multiplying with Karatsuba")
             return multiplyKaratsuba(left, right)
         } else {
