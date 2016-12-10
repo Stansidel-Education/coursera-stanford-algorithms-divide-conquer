@@ -32,7 +32,11 @@ struct InfiniteInt {
                 return nil
             }
         }
-        self.value = value
+        if value.isEmpty {
+            self.value = "0"
+        } else {
+            self.value = value
+        }
     }
     
     init(_ int: UInt) {
@@ -45,8 +49,10 @@ extension InfiniteInt: Number {
         let lcount = left.value.characters.count
         let rcount = right.value.characters.count
         if lcount == rcount && log2(Double(lcount)).remainder(dividingBy: 1) == 0 {
+            print("Multiplying with Karatsuba")
             return multiplyKaratsuba(left, right)
         } else {
+            print("Multiplying with Traditional")
             return multiplyTraditional(left, right)
         }
     }
@@ -205,7 +211,28 @@ extension InfiniteInt: Number {
     }
     
     fileprivate static func multiplyKaratsuba(_ left: InfiniteInt, _ right: InfiniteInt) -> InfiniteInt {
-        return left
+        let lv = left.value
+        let rv = right.value
+        let n = lv.characters.count
+        guard n > 1 else {
+            let leftInt = UInt(left.value)!
+            let rightInt = UInt(right.value)!
+            return InfiniteInt(leftInt * rightInt)
+        }
+        let leftMiddleIndex = lv.index(lv.endIndex, offsetBy: -n / 2)
+        let a = InfiniteInt(lv.substring(to: leftMiddleIndex))!
+        let b = InfiniteInt(lv.substring(from: leftMiddleIndex))!
+        let rightMiddleIndex = rv.index(rv.endIndex, offsetBy: -n / 2)
+        let c = InfiniteInt(rv.substring(to: rightMiddleIndex))!
+        let d = InfiniteInt(rv.substring(from: rightMiddleIndex))!
+        let ac = multiplyKaratsuba(a, c)
+        let bd = multiplyKaratsuba(b, d)
+        let third = multiplyKaratsuba(a + b, c + d)
+        let fourth = third - ac - bd
+        let x1 = InfiniteInt(ac.value + String(repeating: "0", count: n - (n % 2)))!
+        let x2 = InfiniteInt(fourth.value + String(repeating: "0", count: n / 2))!
+        let result = x1 + x2 + bd
+        return result
     }
 }
 

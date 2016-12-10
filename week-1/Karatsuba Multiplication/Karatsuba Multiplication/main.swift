@@ -11,5 +11,5 @@ import Foundation
 let number1 = InfiniteInt(CommandLine.arguments[1])!
 let number2 = InfiniteInt(CommandLine.arguments[2])!
 
-let result = number1 - number2
+let result = number1 * number2
 print(result)
