@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C75DDF81DB32E81005B976E"
-               BuildableName = "QuickSort"
-               BlueprintName = "QuickSort"
-               ReferencedContainer = "container:QuickSort.xcodeproj">
+               BlueprintIdentifier = "2C1FF0BF1DFC3C9D0012A78C"
+               BuildableName = "Karatsuba Multiplication"
+               BlueprintName = "Karatsuba Multiplication"
+               ReferencedContainer = "container:Karatsuba Multiplication.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C87833D1DFC539000FF2FE7"
+               BuildableName = "Karatsuba Multiplication Tests.xctest"
+               BlueprintName = "Karatsuba Multiplication Tests"
+               ReferencedContainer = "container:Karatsuba Multiplication.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C75DDF81DB32E81005B976E"
-            BuildableName = "QuickSort"
-            BlueprintName = "QuickSort"
-            ReferencedContainer = "container:QuickSort.xcodeproj">
+            BlueprintIdentifier = "2C1FF0BF1DFC3C9D0012A78C"
+            BuildableName = "Karatsuba Multiplication"
+            BlueprintName = "Karatsuba Multiplication"
+            ReferencedContainer = "container:Karatsuba Multiplication.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,15 +65,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C75DDF81DB32E81005B976E"
-            BuildableName = "QuickSort"
-            BlueprintName = "QuickSort"
-            ReferencedContainer = "container:QuickSort.xcodeproj">
+            BlueprintIdentifier = "2C1FF0BF1DFC3C9D0012A78C"
+            BuildableName = "Karatsuba Multiplication"
+            BlueprintName = "Karatsuba Multiplication"
+            ReferencedContainer = "container:Karatsuba Multiplication.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "~/Downloads/QuickSort.txt"
+            argument = "3141592653589793238462643383279502884197169399375105820974944592"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "2718281828459045235360287471352662497757247093699959574966967627"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -80,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C75DDF81DB32E81005B976E"
-            BuildableName = "QuickSort"
-            BlueprintName = "QuickSort"
-            ReferencedContainer = "container:QuickSort.xcodeproj">
+            BlueprintIdentifier = "2C1FF0BF1DFC3C9D0012A78C"
+            BuildableName = "Karatsuba Multiplication"
+            BlueprintName = "Karatsuba Multiplication"
+            ReferencedContainer = "container:Karatsuba Multiplication.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
