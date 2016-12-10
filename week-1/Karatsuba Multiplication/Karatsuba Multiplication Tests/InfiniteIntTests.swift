@@ -55,11 +55,30 @@ class InfiniteIntTests: XCTestCase {
         XCTAssert(ii(100) != ii(99))
     }
     
-    func testMultiplication() {
-        testMultiply(1, 1)
-        testMultiply(1, 2)
-        testMultiply(99999999, 1111111)
+    func testTraditionalMultiplication() {
+        testMultiply(1, 10)
+        testMultiply(1, 11)
+        testMultiply(2, 10)
+        testMultiply(2, 11)
+        testMultiply(321, 9)
+        testMultiply(17, 1)
+        testMultiply(17, 0)
+        testMultiply(0, 1)
+        testMultiply(9999, 17)
+        testMultiply(999999, 1111111)
         testMultiply(91092, 2213)
+    }
+    
+    func testKaratsubaMultiplication() {
+        testMultiply(2, 3)
+        testMultiply(2, 2)
+        testMultiply(10, 10)
+        testMultiply(11, 11)
+        testMultiply(99, 99)
+        testMultiply(15, 98)
+        testMultiply(9999, 9999)
+        testMultiply(1000, 9999)
+        testMultiply(12345678, 87654321)
     }
     
     fileprivate func ii(_ int: UInt) -> InfiniteInt {

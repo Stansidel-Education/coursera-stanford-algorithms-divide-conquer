@@ -11,7 +11,9 @@ import Foundation
 protocol Number {
     static func *(l: Self, r: Self) -> Self
     static func +(l: Self, r: Self) -> Self
+    static func +=(l: inout Self, r: Self)
     static func -(l: Self, r: Self) -> Self
+    static func -=(l: inout Self, r: Self)
     static func >(l: Self, r: Self) -> Bool
     static func >=(l: Self, r: Self) -> Bool
     static func <(l: Self, r: Self) -> Bool
@@ -40,7 +42,13 @@ struct InfiniteInt {
 
 extension InfiniteInt: Number {
     static func *(left: InfiniteInt, right: InfiniteInt) -> InfiniteInt {
-        return left
+        let lcount = left.value.characters.count
+        let rcount = right.value.characters.count
+        if lcount == rcount && log2(Double(lcount)).remainder(dividingBy: 1) == 0 {
+            return multiplyKaratsuba(left, right)
+        } else {
+            return multiplyTraditional(left, right)
+        }
     }
     
     static func +(left: InfiniteInt, right: InfiniteInt) -> InfiniteInt {
@@ -160,6 +168,44 @@ extension InfiniteInt: Number {
     
     static func !=(left: InfiniteInt, right: InfiniteInt) -> Bool {
         return left.value != right.value
+    }
+    
+    static func +=(left: inout InfiniteInt, right: InfiniteInt) {
+        left = left + right
+    }
+    
+    static func -=(left: inout InfiniteInt, right: InfiniteInt) {
+        left = left - right
+    }
+    
+    fileprivate static func multiplyTraditional(_ l: InfiniteInt, _ r: InfiniteInt) -> InfiniteInt {
+        guard l != InfiniteInt(0) && r != InfiniteInt(0) else { return InfiniteInt(0) }
+        let (left, right) = l > r ? (l, r) : (r, l)
+        let rcount = right.value.characters.count
+        let lcount = left.value.characters.count
+        var result = InfiniteInt(0)
+        for i in (0..<rcount) {
+            let ir = right.value.index(right.value.endIndex, offsetBy: -i - 1)
+            let digitRight = UInt(String(right.value[ir]))!
+            var digits = Array<String>(repeating: "0", count: i)
+            var memory: UInt = 0
+            for j in (0..<lcount) {
+                let il = left.value.index(left.value.endIndex, offsetBy: -j - 1)
+                let digitLeft = UInt(String(left.value[il]))!
+                let product = (digitLeft * digitRight) + memory
+                digits.append(String(product % 10))
+                memory = product / 10
+            }
+            if memory > 0 {
+                digits.append(String(memory))
+            }
+            result += InfiniteInt(digits.reversed().joined())!
+        }
+        return result
+    }
+    
+    fileprivate static func multiplyKaratsuba(_ left: InfiniteInt, _ right: InfiniteInt) -> InfiniteInt {
+        return left
     }
 }
 
