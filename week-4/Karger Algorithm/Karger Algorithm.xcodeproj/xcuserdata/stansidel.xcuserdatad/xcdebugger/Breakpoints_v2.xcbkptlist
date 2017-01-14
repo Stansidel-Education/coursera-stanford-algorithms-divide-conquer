@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Karger Algorithm/KargerAlgorithm.swift"
+            timestampString = "499964142.163087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Karger Algorithm/KargerAlgorithm.swift"
+            timestampString = "499964142.163087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "merge(vertex:andVertex:inGraph:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Karger_Algorithm.KargerAlgorithm.(merge in _015ECB91B115102A8B7431ADDD47B30A) (vertex : Karger_Algorithm.Vertex, andVertex : Karger_Algorithm.Vertex, inGraph : Karger_Algorithm.Graph) -&gt; ()"
+                  moduleName = "Karger Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stansidel/Personal/Projects/Playgrounds/Introduction%20to%20Algorithms%20Part%201/Karger%20Algorithm/Karger%20Algorithm/KargerAlgorithm.swift"
+                  timestampString = "499961542.616059"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1074">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Karger_Algorithm.KargerAlgorithm.((merge in _015ECB91B115102A8B7431ADDD47B30A) (vertex : Karger_Algorithm.Vertex, andVertex : Karger_Algorithm.Vertex, inGraph : Karger_Algorithm.Graph) -&gt; ()).(closure #1)"
+                  moduleName = "Karger Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stansidel/Personal/Projects/Playgrounds/Introduction%20to%20Algorithms%20Part%201/Karger%20Algorithm/Karger%20Algorithm/KargerAlgorithm.swift"
+                  timestampString = "499961542.61786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            condition = "neighbor.neighbors.count == 0"
+            continueAfterRunningActions = "No"
+            filePath = "Karger Algorithm/KargerAlgorithm.swift"
+            timestampString = "499964142.163087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "removeVertex(at:inGraph:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

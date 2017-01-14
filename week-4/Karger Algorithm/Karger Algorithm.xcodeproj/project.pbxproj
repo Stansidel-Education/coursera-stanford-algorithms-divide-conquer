@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6D6C461DCCA3CC004EB2CE /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D6C451DCCA3CC004EB2CE /* Graph.swift */; };
+		2C6D6C481DCCA3D7004EB2CE /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D6C471DCCA3D7004EB2CE /* Vertex.swift */; };
+		2C6D6C4A1DCCA3DC004EB2CE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D6C491DCCA3DC004EB2CE /* Edge.swift */; };
+		2CEF7D4B1DC3CA2E00CD8738 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF7D4A1DC3CA2E00CD8738 /* main.swift */; };
+		2CEF7D521DC3CA5F00CD8738 /* KargerAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF7D511DC3CA5F00CD8738 /* KargerAlgorithm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CEF7D451DC3CA2E00CD8738 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C6D6C451DCCA3CC004EB2CE /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		2C6D6C471DCCA3D7004EB2CE /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		2C6D6C491DCCA3DC004EB2CE /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		2CEF7D471DC3CA2E00CD8738 /* Karger Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Karger Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEF7D4A1DC3CA2E00CD8738 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2CEF7D511DC3CA5F00CD8738 /* KargerAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KargerAlgorithm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CEF7D441DC3CA2E00CD8738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6D6C441DCCA3A9004EB2CE /* GraphStructure */ = {
+			isa = PBXGroup;
+			children = (
+				2C6D6C451DCCA3CC004EB2CE /* Graph.swift */,
+				2C6D6C471DCCA3D7004EB2CE /* Vertex.swift */,
+				2C6D6C491DCCA3DC004EB2CE /* Edge.swift */,
+			);
+			path = GraphStructure;
+			sourceTree = "<group>";
+		};
+		2CEF7D3E1DC3CA2E00CD8738 = {
+			isa = PBXGroup;
+			children = (
+				2CEF7D491DC3CA2E00CD8738 /* Karger Algorithm */,
+				2CEF7D481DC3CA2E00CD8738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CEF7D481DC3CA2E00CD8738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CEF7D471DC3CA2E00CD8738 /* Karger Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CEF7D491DC3CA2E00CD8738 /* Karger Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				2C6D6C441DCCA3A9004EB2CE /* GraphStructure */,
+				2CEF7D4A1DC3CA2E00CD8738 /* main.swift */,
+				2CEF7D511DC3CA5F00CD8738 /* KargerAlgorithm.swift */,
+			);
+			path = "Karger Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CEF7D461DC3CA2E00CD8738 /* Karger Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEF7D4E1DC3CA2E00CD8738 /* Build configuration list for PBXNativeTarget "Karger Algorithm" */;
+			buildPhases = (
+				2CEF7D431DC3CA2E00CD8738 /* Sources */,
+				2CEF7D441DC3CA2E00CD8738 /* Frameworks */,
+				2CEF7D451DC3CA2E00CD8738 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karger Algorithm";
+			productName = "Karger Algorithm";
+			productReference = 2CEF7D471DC3CA2E00CD8738 /* Karger Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CEF7D3F1DC3CA2E00CD8738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yandex;
+				TargetAttributes = {
+					2CEF7D461DC3CA2E00CD8738 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CEF7D421DC3CA2E00CD8738 /* Build configuration list for PBXProject "Karger Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CEF7D3E1DC3CA2E00CD8738;
+			productRefGroup = 2CEF7D481DC3CA2E00CD8738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CEF7D461DC3CA2E00CD8738 /* Karger Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CEF7D431DC3CA2E00CD8738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6D6C461DCCA3CC004EB2CE /* Graph.swift in Sources */,
+				2C6D6C481DCCA3D7004EB2CE /* Vertex.swift in Sources */,
+				2CEF7D4B1DC3CA2E00CD8738 /* main.swift in Sources */,
+				2C6D6C4A1DCCA3DC004EB2CE /* Edge.swift in Sources */,
+				2CEF7D521DC3CA5F00CD8738 /* KargerAlgorithm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CEF7D4C1DC3CA2E00CD8738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CEF7D4D1DC3CA2E00CD8738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CEF7D4F1DC3CA2E00CD8738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CEF7D501DC3CA2E00CD8738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CEF7D421DC3CA2E00CD8738 /* Build configuration list for PBXProject "Karger Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEF7D4C1DC3CA2E00CD8738 /* Debug */,
+				2CEF7D4D1DC3CA2E00CD8738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CEF7D4E1DC3CA2E00CD8738 /* Build configuration list for PBXNativeTarget "Karger Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEF7D4F1DC3CA2E00CD8738 /* Debug */,
+				2CEF7D501DC3CA2E00CD8738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CEF7D3F1DC3CA2E00CD8738 /* Project object */;
+}
